@@ -1,0 +1,17 @@
+@import "../styles/Styles.scss";
+
+.generate-advice-button {
+    position: absolute;
+    float: inline-end;
+    bottom: 260px;
+    background-color: $NEON_GREEN;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    border: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.generate-advice-button:hover {
+    box-shadow: 0 0 45px rgba(82, 255, 168, 1);
+}
