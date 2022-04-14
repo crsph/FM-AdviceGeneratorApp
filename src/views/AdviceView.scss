@@ -1,0 +1,13 @@
+@import "../styles/Styles.scss";
+
+.advice-generator-container {
+    background: $DARK_GRAYISH_BLUE;
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
