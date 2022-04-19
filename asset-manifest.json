@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/FM-AdviceGeneratorApp/static/css/main.33249660.css",
+    "main.css": "/FM-AdviceGeneratorApp/static/css/main.d747de84.css",
     "main.js": "/FM-AdviceGeneratorApp/static/js/main.6b4fd44b.js",
     "static/js/787.fe2905bd.chunk.js": "/FM-AdviceGeneratorApp/static/js/787.fe2905bd.chunk.js",
     "static/media/Manrope-Regular.ttf": "/FM-AdviceGeneratorApp/static/media/Manrope-Regular.b1d694f660569a9a9ee6.ttf",
@@ -9,12 +9,12 @@
     "static/media/icon-dice.svg": "/FM-AdviceGeneratorApp/static/media/icon-dice.08691e4c24c11b5ba564e06b1f6bcbf3.svg",
     "static/media/pattern-divider-desktop.svg": "/FM-AdviceGeneratorApp/static/media/pattern-divider-desktop.72a1182d3423defd2debabe4274047ef.svg",
     "static/media/pattern-divider-mobile.svg": "/FM-AdviceGeneratorApp/static/media/pattern-divider-mobile.961279456960e7d6de12b9026baeb1b0.svg",
-    "main.33249660.css.map": "/FM-AdviceGeneratorApp/static/css/main.33249660.css.map",
+    "main.d747de84.css.map": "/FM-AdviceGeneratorApp/static/css/main.d747de84.css.map",
     "main.6b4fd44b.js.map": "/FM-AdviceGeneratorApp/static/js/main.6b4fd44b.js.map",
     "787.fe2905bd.chunk.js.map": "/FM-AdviceGeneratorApp/static/js/787.fe2905bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33249660.css",
+    "static/css/main.d747de84.css",
     "static/js/main.6b4fd44b.js"
   ]
 }
