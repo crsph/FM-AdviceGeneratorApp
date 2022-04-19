@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./AdviceView.scss";
 import { GetAdvice } from "../api/AdviceAPI";
 import AdviceText from "../components/AdviceText";
@@ -14,6 +14,10 @@ export default function AdviceView() {
     setAdviceId(data.slip.id);
     setAdviceQuote(data.slip.advice);
   };
+
+  useEffect(() => {
+    getAdvice();
+  });
 
   return (
     <div className="advice-generator-container">
