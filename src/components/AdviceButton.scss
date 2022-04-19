@@ -2,21 +2,15 @@
 
 .generate-advice-button {
     position: absolute;
-    bottom: 272px;
     background-color: $NEON_GREEN;
     width: 60px;
     height: 60px;
     border-radius: 40px;
     border: 0;
     transition: all 0.2s ease-in-out;
+    transform: translateY(295%);
 }
 
 .generate-advice-button:hover {
     box-shadow: 0 0 45px rgba(82, 255, 168, 1);
-}
-
-@media screen and (max-width: $MOBILE) {
-    .generate-advice-button {
-        bottom: 128px;
-    }
 }
