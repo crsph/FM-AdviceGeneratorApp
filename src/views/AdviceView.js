@@ -21,14 +21,16 @@ export default function AdviceView() {
   });
 
   return (
-    <div className="advice-generator-container">
-      <AdviceText id={adviceId} quote={adviceQuote} />
+    <main>
+      <div className="advice-generator-container">
+        <AdviceText id={adviceId} quote={adviceQuote} />
 
-      <PatternDividerMobile className="divider-mobile" />
+        <PatternDividerMobile className="divider-mobile" />
 
-      <PatternDividerDesktop className="divider-desktop" />
+        <PatternDividerDesktop className="divider-desktop" />
 
-      <AdviceButton onClick={getAdvice} />
-    </div>
+        <AdviceButton onClick={getAdvice} />
+      </div>
+    </main>
   );
 }

@@ -6,7 +6,7 @@ export default function AdviceText(props) {
     <div className="advice-text-container">
       <div className="advice-text-container__id">ADVICE #{props.id}</div>
 
-      <div className="advice-text-container__quote">"{props.quote}"</div>
+      <h1 className="advice-text-container__quote">"{props.quote}"</h1>
     </div>
   );
 }
